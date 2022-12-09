@@ -1,0 +1,11 @@
+.button {
+    @apply font-semibold py-2 px-4 border hover:border-transparent rounded;
+}
+
+.primary {
+    @apply bg-blue-500 hover:bg-blue-700 text-white;
+}
+
+.secondary {
+    @apply bg-transparent hover:bg-blue-500 text-blue-700 hover:text-white border-blue-500 hover:border-transparent;
+}

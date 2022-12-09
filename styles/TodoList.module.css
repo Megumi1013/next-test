@@ -1,0 +1,12 @@
+
+.wrapper {
+    @apply bg-white shadow-md rounded px-6 mt-6 py-6;
+}
+
+.list {
+    @apply py-3 flex justify-between;
+}
+
+.list:not(:first-child) {
+    @apply border-t;
+}

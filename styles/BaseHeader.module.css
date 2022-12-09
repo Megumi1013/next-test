@@ -1,0 +1,11 @@
+.header {
+    @apply container mx-auto drop-shadow-md;
+}
+
+.inner {
+    @apply flex justify-between h-40 align-baseline;
+}
+
+.inner div{
+    @apply py-3 accent-gray-700;
+}
